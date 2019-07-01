@@ -1,0 +1,26 @@
+{
+    "name": "avrasm-helper",
+    "displayName": "AVR Assembly Helper",
+    "description": "Description TODO",
+    "version": "0.0.1",
+    "publisher": "jerryc05",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "avrasm",
+            "aliases": ["AVR Assembly", "avrasm"],
+            "extensions": [".S"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "avrasm",
+            "scopeName": "source.avrasm",
+            "path": "./syntaxes/avrasm.tmLanguage"
+        }]
+    }
+}
