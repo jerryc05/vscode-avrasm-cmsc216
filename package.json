@@ -10,6 +10,9 @@
     "categories": [
         "Programming Languages"
     ],
+    "activationEvents": [
+        "onLanguage:avrasm"
+    ],
     "contributes": {
         "languages": [{
             "id": "avrasm",
