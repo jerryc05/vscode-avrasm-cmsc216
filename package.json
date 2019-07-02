@@ -4,15 +4,24 @@
     "description": "Description TODO",
     "version": "0.0.1",
     "publisher": "jerryc05",
+    "author": {
+      "name": "jerryc05",
+      "url": "https://github.com/jerryc05"
+    },
     "engines": {
         "vscode": "^1.0.0"
     },
     "categories": [
         "Programming Languages"
     ],
-    "activationEvents": [
-        "onLanguage:avrasm"
-    ],
+    "homepage": "https://github.com/jerryc05/AVR-Assembly-Helper/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/jerryc05/AVR-Assembly-Helper/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jerryc05/AVR-Assembly-Helper.git"
+    },
     "contributes": {
         "languages": [{
             "id": "avrasm",
