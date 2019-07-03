@@ -1,7 +1,7 @@
 {
-    "name": "avrasm-helper",
+    "name": "avrasm-cmsc216",
     "displayName": "AVR Assembly Helper",
-    "description": "Description TODO",
+    "description": "AVR Assembly syntax highlighter for UMD course CMSC216.",
     "version": "0.0.1",
     "publisher": "jerryc05",
     "author": {
