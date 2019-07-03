@@ -19,9 +19,8 @@
 			<key>name</key>		<string>comment.block.avrasm</string>
 		</dict>
 		<dict>
-		<!-- TODO space after .set is fixed length -->
 			<key>match</key>
-			<string>(?<=\.set[ \t])\w+(?=[ \t]*,[ \t]*.+[ \t]*[;\n])</string>
+			<string>(?<=\.set)[ \t]+\w+(?=[ \t]*,[ \t]*.+[ \t]*[;\n])</string>
 			<key>name</key>		<string>constant.numeric.avrasm</string>
 		</dict>
 		<dict>
@@ -46,12 +45,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?<=.global[ \t])\w+(?=[ \t]*[;\n])</string>
+			<string>(?<=\.global)[ \t]+\w+(?=[ \t]*[;\n])</string>
 			<key>name</key>		<string>entity.name.function.avrasm</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?<=call[ \t])\w+(?=[ \t]*[;\n])</string>
+			<string>(?<=call)[ \t]+\w+(?=[ \t]*[;\n])</string>
 			<key>name</key>		<string>entity.name.function.avrasm</string>
 		</dict>
 		<dict>
@@ -61,7 +60,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^[ \t]*\.(?:data|global[ \t]|text)</string>
+			<string>^[ \t]*\.(?:data|global|text)</string>
 			<key>name</key>		<string>keyword.control.avrasm</string>
 		</dict>
 		<dict>
