@@ -75,13 +75,8 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\.\b(?:byte|cseg|db|def|device|dseg|dw|endmacro|equ|eseg|exit|include|list|listmac|macro|nolist|org|set)\b</string>
+			<string>(?i)\.\b(?:asciz|byte|cseg|db|def|device|dseg|dw|endmacro|equ|eseg|exit|include|list|listmac|macro|nolist|org|set)\b</string>
 			<key>name</key>		<string>meta.preprocessor.directive.avrasm</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>.byte</string>
-			<key>name</key>		<string>storage.type.avrasm</string>
 		</dict>
 		<dict>
 			<key>match</key>
